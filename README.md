@@ -82,3 +82,20 @@ Method-level security is enabled across all APIs, ensuring that only users with 
 ```bash
 git clone https://github.com/yourusername/leave-management-system.git
 cd leave-management-system
+```
+
+2. **Configure the Database:**
+
+    Update the database settings in `src/main/resources/application.yml` to match your local environment.
+
+3. **Build the Project:**
+
+    ```bash
+    mvn clean install
+    ```
+
+4. **Run the Application:**
+
+    ```bash
+    mvn spring-boot:run
+    ```
